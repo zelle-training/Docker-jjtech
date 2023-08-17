@@ -13,9 +13,9 @@ docker rmi -f $(docker images) : Remove all docker images at once
 
 docker search <image name> To search for an image name from a public registry
 
-docker save <image name>  >  filename.tar  : To save an image in a tar format and share with other people
+docker save <image name>  >  filename.tar or docker save <image name> -o sonarqube.zip  : To save an image in a tar format and share with other people
 
-docker image load --input <file-name>  : To load a docker image from a tar file back into the local repository
+docker image load --input <file-name> : To load a docker image from a tar file back into the local repository
 
 Docker inspect
 
